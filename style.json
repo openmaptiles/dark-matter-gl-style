@@ -19,10 +19,10 @@
     }
   },
   "center": [
-    8.710113848554329,
-    47.41539860622103
+    8.59093856431906,
+    47.33260185213814
   ],
-  "zoom": 9.911201847623753,
+  "zoom": 9.452307282055406,
   "bearing": 0,
   "pitch": 0,
   "sources": {
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "landcover-ice-shelf",
+      "id": "landcover_ice_shelf",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landcover",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "landcover-glacier",
+      "id": "landcover_glacier",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landcover",
@@ -106,10 +106,10 @@
         ]
       ],
       "layout": {
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
-        "fill-color": "hsl(0, 0%, 98%)",
+        "fill-color": "hsl(0, 1%, 2%)",
         "fill-opacity": {
           "base": 1,
           "stops": [
@@ -126,7 +126,7 @@
       }
     },
     {
-      "id": "landuse-residential",
+      "id": "landuse_residential",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landuse",
@@ -140,32 +140,20 @@
         ],
         [
           "==",
-          "subclass",
+          "class",
           "residential"
         ]
       ],
       "layout": {
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
-        "fill-color": "rgb(234, 234, 230)",
-        "fill-opacity": {
-          "base": 0.6,
-          "stops": [
-            [
-              8,
-              0.8
-            ],
-            [
-              9,
-              0.4
-            ]
-          ]
-        }
+        "fill-color": "hsl(0, 2%, 5%)",
+        "fill-opacity": 0.4
       }
     },
     {
-      "id": "landcover-wood",
+      "id": "landcover_wood",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landcover",
@@ -213,7 +201,7 @@
       }
     },
     {
-      "id": "landuse-park",
+      "id": "landuse_park",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landuse",
@@ -255,7 +243,7 @@
       }
     },
     {
-      "id": "water-name",
+      "id": "water_name",
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "water_name",
@@ -298,7 +286,7 @@
       }
     },
     {
-      "id": "highway-path",
+      "id": "highway_path",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
@@ -346,7 +334,7 @@
       }
     },
     {
-      "id": "highway-minor",
+      "id": "highway_minor",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
@@ -393,7 +381,7 @@
       }
     },
     {
-      "id": "highway-major-casing",
+      "id": "highway_major_casing",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
@@ -444,7 +432,7 @@
       }
     },
     {
-      "id": "highway-major-inner",
+      "id": "highway_major_inner",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
@@ -491,7 +479,7 @@
       }
     },
     {
-      "id": "highway-major-subtle",
+      "id": "highway_major_subtle",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
@@ -526,7 +514,7 @@
       }
     },
     {
-      "id": "highway-motorway-casing",
+      "id": "highway_motorway_casing",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
@@ -579,7 +567,7 @@
       }
     },
     {
-      "id": "highway-motorway-inner",
+      "id": "highway_motorway_inner",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
@@ -639,7 +627,7 @@
       }
     },
     {
-      "id": "highway-motorway-subtle",
+      "id": "highway_motorway_subtle",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
@@ -683,7 +671,7 @@
       }
     },
     {
-      "id": "railway-minor",
+      "id": "railway_minor",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
@@ -721,11 +709,11 @@
       }
     },
     {
-      "id": "railway-minor-dashline",
+      "id": "railway_minor_dashline",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "ref": "railway-minor",
+      "ref": "railway_minor",
       "paint": {
         "line-color": "rgb(12,12,12)",
         "line-width": 2,
@@ -779,7 +767,7 @@
       }
     },
     {
-      "id": "railway-dashline",
+      "id": "railway_dashline",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
@@ -806,7 +794,7 @@
       }
     },
     {
-      "id": "highway-name-other",
+      "id": "highway_name_other",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
@@ -853,7 +841,7 @@
       }
     },
     {
-      "id": "highway-name-motorway",
+      "id": "highway_name_motorway",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
@@ -895,7 +883,7 @@
       }
     },
     {
-      "id": "boundary-state",
+      "id": "boundary_state",
       "type": "line",
       "metadata": {
         "mapbox:group": "a14c9607bc7954ba1df7205bf660433f"
@@ -936,7 +924,7 @@
       }
     },
     {
-      "id": "boundary-country",
+      "id": "boundary_country",
       "type": "line",
       "metadata": {
         "mapbox:group": "a14c9607bc7954ba1df7205bf660433f"
@@ -984,7 +972,7 @@
       }
     },
     {
-      "id": "place-other",
+      "id": "place_other",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
@@ -1000,20 +988,11 @@
           "Point"
         ],
         [
-          "all",
-          [
-            "!in",
-            "subclass",
-            "city",
-            "town",
-            "village"
-          ],
-          [
-            "in",
-            "class",
-            "settlement",
-            "subregion"
-          ]
+          "in",
+          "class",
+          "hamlet",
+          "isolated_dwelling",
+          "neighbourhood"
         ]
       ],
       "layout": {
@@ -1040,7 +1019,7 @@
       }
     },
     {
-      "id": "place-suburb",
+      "id": "place_suburb",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
@@ -1057,7 +1036,7 @@
         ],
         [
           "==",
-          "subclass",
+          "class",
           "suburb"
         ]
       ],
@@ -1085,7 +1064,7 @@
       }
     },
     {
-      "id": "place-village",
+      "id": "place_village",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
@@ -1102,7 +1081,7 @@
         ],
         [
           "==",
-          "subclass",
+          "class",
           "village"
         ]
       ],
@@ -1132,7 +1111,7 @@
       }
     },
     {
-      "id": "place-town",
+      "id": "place_town",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
@@ -1149,7 +1128,7 @@
         ],
         [
           "==",
-          "subclass",
+          "class",
           "town"
         ]
       ],
@@ -1204,7 +1183,7 @@
       }
     },
     {
-      "id": "place-city",
+      "id": "place_city",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
@@ -1223,7 +1202,7 @@
           "any",
           [
             "==",
-            "subclass",
+            "class",
             "city"
           ],
           [
@@ -1284,7 +1263,7 @@
       }
     },
     {
-      "id": "place-city-large",
+      "id": "place_city_large",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
@@ -1308,7 +1287,7 @@
           ],
           [
             "==",
-            "subclass",
+            "class",
             "city"
           ]
         ]
@@ -1364,7 +1343,7 @@
       }
     },
     {
-      "id": "place-state",
+      "id": "place_state",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
@@ -1403,7 +1382,7 @@
       }
     },
     {
-      "id": "place-country-other",
+      "id": "place_country_other",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
@@ -1461,7 +1440,7 @@
       }
     },
     {
-      "id": "place-country-major",
+      "id": "place_country_major",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
@@ -1523,5 +1502,10 @@
         "text-color": "rgb(101,101,101)"
       }
     }
-  ]
+  ],
+  "created": "2016-10-31T10:24:58.309Z",
+  "id": "ciuxx5n7h019l2hpbn9liprmn",
+  "modified": "2016-12-03T13:37:37.030Z",
+  "owner": "morgenkaffee",
+  "draft": false
 }
