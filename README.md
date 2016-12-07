@@ -1,4 +1,5 @@
 # Dark Matter
+[![Build Status](https://travis-ci.org/openmaptiles/dark-matter-gl-style.svg?branch=master)](https://travis-ci.org/openmaptiles/dark-matter-gl-style)
 
 A Mapbox GL basemap style useful for data visualizations. The cartography is based on the
 [CartoDB Dark Matter Basemap](https://github.com/CartoDB/CartoDB-basemaps) and it is using the vector tile
