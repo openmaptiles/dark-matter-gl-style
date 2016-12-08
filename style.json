@@ -27,12 +27,12 @@
   "pitch": 0,
   "sources": {
     "openmaptiles": {
-      "type": "vector",
-      "url": "https://osm2vectortiles.tileserver.com/v3.json"
+      "url": "mapbox://openmaptiles.805mi4we",
+      "type": "vector"
     }
   },
-  "sprite": "https://openmaptiles.github.io/dark-matter-gl-style/sprite",
-  "glyphs": "//fonts.openmaptiles.org/{fontstack}/{range}.pbf",
+  "sprite": "mapbox://sprites/openmaptiles/ciwf4jmfe00882qmzvu5vh0zx",
+  "glyphs": "mapbox://fonts/openmaptiles/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -258,7 +258,8 @@
         "text-rotation-alignment": "map",
         "symbol-spacing": 500,
         "text-font": [
-          "Metropolis Medium Italic"
+          "Metropolis Medium Italic",
+          "Arial Unicode MS Regular"
         ],
         "text-size": 12
       },
@@ -819,7 +820,8 @@
         "text-transform": "uppercase",
         "symbol-spacing": 350,
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "symbol-placement": "line",
         "visibility": "visible",
@@ -863,7 +865,8 @@
         "text-size": 10,
         "symbol-spacing": 350,
         "text-font": [
-          "Metropolis Light"
+          "Metropolis Light",
+          "Arial Unicode MS Regular"
         ],
         "symbol-placement": "line",
         "visibility": "visible",
@@ -996,7 +999,8 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1040,7 +1044,8 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1084,7 +1089,8 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1143,7 +1149,8 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1222,7 +1229,8 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1301,7 +1309,8 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1359,7 +1368,8 @@
         "visibility": "visible",
         "text-field": "{name_en}",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-transform": "uppercase",
         "text-size": 10
@@ -1405,7 +1415,8 @@
         "visibility": "visible",
         "text-field": "{name_en}",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-transform": "uppercase",
         "text-size": {
@@ -1462,7 +1473,8 @@
         "visibility": "visible",
         "text-field": "{name_en}",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-transform": "uppercase",
         "text-size": {
@@ -1490,5 +1502,10 @@
         "text-color": "rgb(101,101,101)"
       }
     }
-  ]
+  ],
+  "created": "2016-12-07T16:03:35.122Z",
+  "id": "ciwf4jmfe00882qmzvu5vh0zx",
+  "modified": "2016-12-07T16:13:48.366Z",
+  "owner": "openmaptiles",
+  "draft": false
 }
