@@ -16,7 +16,8 @@
         "name": "Places",
         "collapsed": false
       }
-    }
+    },
+    "openmaptiles:version": "3.x"
   },
   "center": [
     20.745027854803,
