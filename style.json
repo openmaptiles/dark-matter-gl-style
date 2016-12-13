@@ -260,7 +260,8 @@
         "symbol-spacing": 500,
         "text-font": [
           "Metropolis Medium Italic",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Italic",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-size": 12
       },
@@ -822,7 +823,8 @@
         "symbol-spacing": 350,
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "symbol-placement": "line",
         "visibility": "visible",
@@ -867,7 +869,8 @@
         "symbol-spacing": 350,
         "text-font": [
           "Metropolis Light",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "symbol-placement": "line",
         "visibility": "visible",
@@ -1001,7 +1004,8 @@
         "text-transform": "uppercase",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1046,7 +1050,8 @@
         "text-transform": "uppercase",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1091,7 +1096,8 @@
         "text-transform": "uppercase",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1151,7 +1157,8 @@
         "text-transform": "uppercase",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1231,7 +1238,8 @@
         "text-transform": "uppercase",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1311,7 +1319,8 @@
         "text-transform": "uppercase",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1370,7 +1379,8 @@
         "text-field": "{name_en}",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-transform": "uppercase",
         "text-size": 10
@@ -1417,7 +1427,8 @@
         "text-field": "{name_en}",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-transform": "uppercase",
         "text-size": {
@@ -1475,7 +1486,8 @@
         "text-field": "{name_en}",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-transform": "uppercase",
         "text-size": {
@@ -1506,7 +1518,7 @@
   ],
   "created": "2016-12-07T16:03:35.122Z",
   "id": "ciwf4jmfe00882qmzvu5vh0zx",
-  "modified": "2016-12-07T16:13:48.366Z",
+  "modified": "2016-12-13T19:54:59.501Z",
   "owner": "openmaptiles",
   "draft": false
 }
