@@ -17,7 +17,9 @@
         "collapsed": false
       }
     },
-    "openmaptiles:version": "3.x"
+    "openmaptiles:version": "3.x",
+    "openmaptiles:mapbox:owner": "openmaptiles",
+    "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
   },
   "center": [
     20.745027854803,
@@ -28,12 +30,11 @@
   "pitch": 0,
   "sources": {
     "openmaptiles": {
-      "url": "mapbox://openmaptiles.4qljc88t",
-      "type": "vector"
+      "type": "vector",
+      "url": "https://free.tilehosting.com/data/v3.json?key=tXiQqN3lIgskyDErJCeY"
     }
   },
-  "sprite": "mapbox://sprites/openmaptiles/ciwf4jmfe00882qmzvu5vh0zx",
-  "glyphs": "mapbox://fonts/openmaptiles/{fontstack}/{range}.pbf",
+  "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -1516,9 +1517,5 @@
       }
     }
   ],
-  "created": "2016-12-07T16:03:35.122Z",
-  "id": "ciwf4jmfe00882qmzvu5vh0zx",
-  "modified": "2016-12-13T19:54:59.501Z",
-  "owner": "openmaptiles",
-  "draft": false
+  "id": "ciwf4jmfe00882qmzvu5vh0zx"
 }
