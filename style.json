@@ -35,7 +35,7 @@
     }
   },
   "sprite": "https://openmaptiles.github.io/dark-matter-gl-style/sprite",
-  "glyphs": "http://demo.tileserver.org/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "https://demo.tileserver.org/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
