@@ -714,18 +714,10 @@
     },
     {
       "id": "railway_minor_dashline",
+      "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "paint": {
-        "line-color": "rgb(12,12,12)",
-        "line-width": 2,
-        "line-dasharray": [
-          3,
-          3
-        ]
-      },
-      "type": "line",
       "source": "openmaptiles",
       "source-layer": "transportation",
       "minzoom": 16,
@@ -752,6 +744,14 @@
       "layout": {
         "visibility": "visible",
         "line-join": "round"
+      },
+      "paint": {
+        "line-color": "rgb(12,12,12)",
+        "line-width": 2,
+        "line-dasharray": [
+          3,
+          3
+        ]
       }
     },
     {
@@ -799,8 +799,29 @@
     },
     {
       "id": "railway_dashline",
+      "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
+      },
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 13,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "==",
+          "class",
+          "rail"
+        ]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-join": "round"
       },
       "paint": {
         "line-color": "rgb(12,12,12)",
@@ -821,27 +842,6 @@
           3,
           3
         ]
-      },
-      "type": "line",
-      "source": "openmaptiles",
-      "source-layer": "transportation",
-      "minzoom": 13,
-      "filter": [
-        "all",
-        [
-          "==",
-          "$type",
-          "LineString"
-        ],
-        [
-          "==",
-          "class",
-          "rail"
-        ]
-      ],
-      "layout": {
-        "visibility": "visible",
-        "line-join": "round"
       }
     },
     {
