@@ -34,6 +34,7 @@
       "url": "https://free.tilehosting.com/data/v3.json?key=tXiQqN3lIgskyDErJCeY"
     }
   },
+  "sprite": "https://openmaptiles.github.io/dark-matter-gl-style/sprite",
   "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   "layers": [
     {
