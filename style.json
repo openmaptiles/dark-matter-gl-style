@@ -882,14 +882,14 @@
         "text-field": "{name}"
       },
       "paint": {
-        "text-color": "rgba(0,0,0,0.7)",
-        "text-halo-color": "rgb(101,101,101)",
+        "text-color": "rgba(80, 78, 78, 1)",
         "text-translate": [
           0,
           0
         ],
+        "text-halo-color": "rgba(0, 0, 0, 1)",
         "text-halo-width": 1,
-        "text-halo-blur": 1
+        "text-halo-blur": 0
       }
     },
     {
