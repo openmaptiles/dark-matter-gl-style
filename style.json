@@ -514,8 +514,20 @@
       },
       "paint": {
         "line-color": "#2a2a2a",
-        "line-width": 2
-      }
+        "line-width": {
+          "stops": [
+            [
+              6,
+              0
+            ],
+            [
+              8,
+              2
+            ]
+          ]
+        }
+      },
+      "minzoom": 6
     },
     {
       "id": "highway_motorway_casing",
