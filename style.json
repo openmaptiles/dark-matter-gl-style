@@ -646,6 +646,7 @@
       },
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 6,
       "maxzoom": 11,
       "filter": [
         "all",
@@ -682,8 +683,7 @@
             ]
           ]
         }
-      },
-      "minzoom": 6
+      }
     },
     {
       "id": "highway_motorway_casing",
@@ -843,6 +843,88 @@
       }
     },
     {
+      "id": "railway_transit",
+      "type": "line",
+      "metadata": {
+        "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
+      },
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "all",
+          [
+            "==",
+            "class",
+            "transit"
+          ],
+          [
+            "!in",
+            "brunnel",
+            "tunnel"
+          ]
+        ]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "rgb(35,35,35)",
+        "line-width": 3
+      }
+    },
+    {
+      "id": "railway_transit_dashline",
+      "type": "line",
+      "metadata": {
+        "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
+      },
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "all",
+          [
+            "==",
+            "class",
+            "transit"
+          ],
+          [
+            "!in",
+            "brunnel",
+            "tunnel"
+          ]
+        ]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "rgb(12,12,12)",
+        "line-width": 2,
+        "line-dasharray": [
+          3,
+          3
+        ]
+      }
+    },
+    {
       "id": "railway_minor",
       "type": "line",
       "metadata": {
@@ -942,6 +1024,10 @@
           "==",
           "class",
           "rail"
+        ],
+        [
+          "!has",
+          "service"
         ]
       ],
       "layout": {
@@ -985,6 +1071,10 @@
           "==",
           "class",
           "rail"
+        ],
+        [
+          "!has",
+          "service"
         ]
       ],
       "layout": {
