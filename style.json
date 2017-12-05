@@ -1721,11 +1721,6 @@
           "country"
         ],
         [
-          ">=",
-          "rank",
-          2
-        ],
-        [
           "!has",
           "iso_a2"
         ]
@@ -1734,7 +1729,7 @@
         "visibility": "visible",
         "text-field": "{name_en}",
         "text-font": [
-          "Metropolis Medium Italic",
+          "Metropolis Light Italic",
           "Klokantech Noto Sans Italic",
           "Klokantech Noto Sans CJK Regular"
         ],
