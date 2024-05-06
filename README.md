@@ -9,8 +9,6 @@ schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 **[:globe_with_meridians: Browse the map](https://openmaptiles.github.io/dark-matter-gl-style)**
 
 ## Edit the Style
-
-## Edit the Style
 Use the map editor in MapTiler Cloud to view and adjust this map. Open the editor and upload style from this repository or host from various styles available on the platform.
 
 [Try style editor](https://cloud.maptiler.com/maps/editor)
